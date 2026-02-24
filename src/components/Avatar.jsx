@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import avatarVideo from '../context/avatar_1.mp4'; // Import video
-import avatarImage from '../context/avatar.jpeg'; // Import poster image
+const avatarVideo = '/assets/avatar_1.mp4';
+const avatarImage = '/assets/avatar.jpeg';
 
 const Avatar = ({ audioBase64, isEmergency = false }) => {
     const [isPlaying, setIsPlaying] = useState(false);

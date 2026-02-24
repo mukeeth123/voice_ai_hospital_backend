@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import avatarVideo from '../../context/avatar_1.mp4';
+
 
 const Hero = () => {
     const navigate = useNavigate();
@@ -45,7 +45,7 @@ const Hero = () => {
                     <div className="absolute w-64 h-64 rounded-full border-2 border-dashed border-blue-100 opacity-30" />
 
                     <div className="relative z-10 w-80 h-96 md:w-[420px] md:h-[480px] rounded-3xl bg-gradient-to-br from-blue-50 to-primary/10 flex items-end justify-center overflow-hidden shadow-xl animate-float">
-                        <video src={avatarVideo} autoPlay loop muted playsInline className="w-full h-full object-cover object-top" />
+                        <video src="/assets/avatar_1.mp4" autoPlay loop muted playsInline className="w-full h-full object-cover object-top" />
                     </div>
                 </div>
             </div>
