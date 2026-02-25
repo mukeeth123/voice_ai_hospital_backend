@@ -300,7 +300,7 @@ const JsonChatIntake = () => {
                                 key={tab}
                                 onClick={() => {
                                     if (tab === 'AI Doctor') {
-                                        navigate('/ai-doctor');
+                                        window.location.href = 'https://doctor-ai-three.vercel.app/';
                                     } else {
                                         setActiveTab(tab);
                                     }
